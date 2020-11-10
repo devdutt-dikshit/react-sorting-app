@@ -1,0 +1,37 @@
+body{
+    background-color: #eeeeee;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.app-component{
+    text-align: center;
+}
+
+.italic{
+    font-style: italic;
+    font-size: 70%;
+    margin-bottom: 15px;
+    opacity: 0.5;
+}
+
+.img-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-view{
+    padding: 20px;
+    width: 25%;
+}
+.img-view:hover{
+    transition: 400ms;
+    transform: scale(1.1);
+    background-color: #fff;
+    
+}
+.img-view img{
+    width: 100%;
+}
